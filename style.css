@@ -16,6 +16,7 @@ body {
   padding-top: 71px;
 }
 
+/* NAV */
 nav {
   display: flex;
   align-items: center;
@@ -35,4 +36,39 @@ ul li a {
   font-family: "JetBrains Mono", monospace;
   font-size: 14px;
   font-weight: 500;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+  margin-bottom: 156px;
+}
+
+main img {
+  max-width: 400px;
+  height: auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  color: #c2c2c2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "JetBrains Mono", monospace;
+}
+
+span {
+  color: #00bfa6;
 }
